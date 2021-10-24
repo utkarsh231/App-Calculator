@@ -1,7 +1,7 @@
 # App-Calculator 
 
 # Project by-
-Sikkim Manipal Institute of Technology - Scripting Lab Week 8 Assignment
+Sikkim Manipal Institute of Technology - Scripting Lab Week 9 Assignment
 
 Submitted by - Utkarsh Prakash Srivastava
 
@@ -30,3 +30,8 @@ It is a working Simple Calculator which can perform following tasks :
 - Division
 - Factorial of a number
 - Check Prime
+
+# App Screenshot
+
+
+![Screenshot 2021-10-24 232553](https://user-images.githubusercontent.com/57147530/138606705-3e9ad9e2-750c-41bb-b41e-e831dd9f6d24.png)
