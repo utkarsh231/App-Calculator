@@ -1,0 +1,62 @@
+<style>
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+</style>
+<p>
+  <mat-toolbar>
+   <span style="font-size: xx-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">CALCULATOR</span>
+   <span class="example-spacer"></span>
+   <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button>
+ </mat-toolbar>
+</p>
+<div class="card">
+  <div class="card-header text-center">CALCULATOR</div>
+  <div class="card-body">
+    <div class="form-group d-flex flex-row">
+      <input [(ngModel)]='num1' type="number" name="num1" class="form-control">
+      <input [(ngModel)]='num2' type="number" name="num2" class="form-control">
+
+    </div>
+
+
+      <section>
+      <div class="example-button-row">
+
+    <div class="d-flex flex-row justify-content-between">
+      <button mat-raised-button (click)="addition()">SUM</button>
+      <button mat-raised-button (click)="subtraction()">SUBTRACTION</button>
+      <button mat-raised-button (click)="multiplication()">MULTIPLICATION</button>
+      <button mat-raised-button (click)="division()">DIVISION</button>
+      <button mat-raised-button (click)="factorial()">FACTORIAL</button>
+      <button mat-raised-button (click)="isprime()">CHECK PRIME</button>
+
+    </div>
+    </div>
+    </section>
+  </div>
+
+  <div class="card-footer text-center">
+    <p> <b>NOTE : For "FACTORIAL" and "CHECK PRIME" enter only in 1st box.</b></p>
+    <h4> The Result is {{result}} </h4>
+  </div>
+</div>
+
+<mat-card class="example-card">
+  <mat-card-title>Calculator</mat-card-title>
+  <mat-card-content>
+    <p>This web app is made by Utkarsh Prakash Srivastava.</p>
+    <p>The following calculator performs addition, subtraction, munltiplication and division of 2 numbers. Beside those, the calculator can also
+      find factorial of a number and also can check whether a number is prime or not.
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
+
