@@ -1,7 +1,7 @@
 # App-Calculator 
 
 # Project by-
-Sikkim Manipal Institute of Technology - Scripting Lab Week 9 Assignment
+Sikkim Manipal Institute of Technology - Scripting Lab Week 8 Assignment
 
 Submitted by - Utkarsh Prakash Srivastava
 
